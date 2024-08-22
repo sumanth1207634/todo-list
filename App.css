@@ -1,0 +1,157 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+ul p {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  max-width: 140px;
+  margin-bottom: 20px;
+  margin-right: 80%;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-weight: bold;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: -150px;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  border: 8px solid white;
+  padding: 0;
+  height: 400px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+ul {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+ul {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgba(255, 255, 255, 0.1); /* Scrollbar thumb color and track color */
+}
+
+ul::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 5px;
+}
+
+li {
+  padding: 20px; /* Increase padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px; /* Increase margin */
+  display: flex;
+  align-items: center;
+}
+
+span {
+  flex: 1;
+  font-size: 30px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 25px;
+}
+
+/* Increase the size of the checkbox */
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+}
+
+/* Increase the size of the checked checkbox */
+input[type="checkbox"]:checked {
+  width: 24px;
+  height: 24px;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px;
+    margin-right: 0%;
+    margin-top: 20px;
+  }
+  header {
+    margin-top: -15px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  ul {
+    height: 300px;
+    max-height: 300px;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  span {
+    font-size: 20px;
+  }
+}
